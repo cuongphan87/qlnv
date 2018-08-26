@@ -15,12 +15,14 @@ $sql = "DELETE FROM nhanvien WHERE manv='$manv'";
 echo $sql;
 if ($conn -> query($sql) == true) {
     $mess = array(
-        "xoa thanh cong!"
+        "xoa thanh cong! NGon"
     );
 } else {
     $mess = array(
         "xoa that bai! ahihi"
     );
 }
+//day la feature/qltc
 // Output
 echo(json_encode($mess));
+//okkakakakak
