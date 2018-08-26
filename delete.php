@@ -22,5 +22,6 @@ if ($conn -> query($sql) == true) {
         "xoa that bai! ahihi"
     );
 }
+//day la feature/qltc
 // Output
 echo(json_encode($mess));
