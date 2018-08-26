@@ -19,7 +19,7 @@ if ($conn -> query($sql) == true) {
     );
 } else {
     $mess = array(
-        "xoa that bai!"
+        "xoa that bai! ahihi"
     );
 }
 // Output
