@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url("css/bootstrap.css");
+
+/* Clearfix */
+.clearfix { *zoom: 1; }
+.clearfix:before,
+.clearfix:after { clear: both; display: table; line-height: 0; content: ""; }
+.clearfix:after  { clear: both; }
+
+.heading {
+	color: #111;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.info-title,
+.salary-title {
+	color: #18321;
+	font-size: 25px;
+	text-align: left;
+}
+
+.wrap-info,
+.wrap-salary {
+	padding: 10px;
+	border: solid 1px #999;
+	
+}
+
+.wrap-info .form-group { width: 43%; float: left; }
+.wrap-info .form-group.birth,
+.wrap-info .form-group.address,
+.wrap-info .form-group.email-add { 
+	margin-left: 50px;
+}
+
+.wrap-info .form-group > input {
+	float: right;
+	width: 300px;
+	
+}
+
+.wrap-salary .form-group {
+	float: left;
+	width: 30%;
+}
+
+.wrap-btn {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+a.btn-upload.btn.btn-primary {
+	margin-top: 50px;
+}
