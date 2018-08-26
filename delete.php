@@ -21,5 +21,5 @@ if ($conn -> query($sql) == true) {
         "xoa that bai!"
     );
 }
-
+// Output
 echo(json_encode($mess));
